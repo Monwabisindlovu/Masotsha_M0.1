@@ -1,0 +1,358 @@
+2024-08-27 15:47:01,214 - INFO - MetaTrader5 initialization failed
+2024-08-27 15:55:34,190 - INFO - MetaTrader5 initialization failed, error code: (-10003, "IPC initialize failed, Process create failed 'C:\\Program Files\\MetaTrader 5\\terminal64.exe'")
+2024-08-27 17:41:56,879 - INFO - MetaTrader5 initialized successfully
+2024-08-27 17:41:56,908 - INFO - Order failed: (1, 'Success')
+2024-08-27 17:41:56,920 - INFO - Order result: OrderSendResult(retcode=10015, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid price', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=0.0, stoplimit=0.0, sl=1.1, tp=1.2, deviation=10, type=0, type_filling=0, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 07:16:38,628 - INFO - MetaTrader5 initialized successfully
+2024-08-28 07:16:38,654 - INFO - Order failed: (1, 'Success')
+2024-08-28 07:16:38,677 - INFO - Order result: OrderSendResult(retcode=10015, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid price', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=0.0, stoplimit=0.0, sl=1.1, tp=1.2, deviation=10, type=0, type_filling=0, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 07:36:17,805 - INFO - MetaTrader5 initialized successfully
+2024-08-28 07:36:17,811 - INFO - Order failed: (1, 'Success')
+2024-08-28 07:36:17,811 - INFO - Order result: OrderSendResult(retcode=10015, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid price', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=0.0, stoplimit=0.0, sl=1.1, tp=1.2, deviation=10, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 07:45:59,052 - INFO - MetaTrader5 initialized successfully
+2024-08-28 07:45:59,354 - INFO - Order placed successfully: OrderSendResult(retcode=10009, deal=150296183409, order=150293849040, volume=0.1, price=1.1145100000000001, bid=1.11445, ask=1.1145100000000001, comment='Request executed', request_id=4220474032, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=1.1145100000000001, stoplimit=0.0, sl=1.1, tp=1.2, deviation=10, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 07:45:59,393 - INFO - Order result: OrderSendResult(retcode=10009, deal=150296183409, order=150293849040, volume=0.1, price=1.1145100000000001, bid=1.11445, ask=1.1145100000000001, comment='Request executed', request_id=4220474032, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=1.1145100000000001, stoplimit=0.0, sl=1.1, tp=1.2, deviation=10, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 10:35:46,982 - INFO - MetaTrader5 initialized successfully
+2024-08-28 10:35:47,177 - INFO - Order failed: (1, 'Success')
+2024-08-28 10:35:47,178 - INFO - Order result: OrderSendResult(retcode=10004, deal=0, order=0, volume=0.0, price=0.0, bid=1.11486, ask=1.1149, comment='Requote', request_id=4220474033, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=1.11491, stoplimit=0.0, sl=1.1, tp=1.2, deviation=10, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 11:11:03,743 - INFO - MetaTrader5 initialized successfully
+2024-08-28 11:11:04,152 - INFO - Order failed: (1, 'Success')
+2024-08-28 11:11:04,390 - INFO - Order result: OrderSendResult(retcode=10004, deal=0, order=0, volume=0.0, price=0.0, bid=1.11417, ask=1.11422, comment='Requote', request_id=2741309028, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=1.11378, stoplimit=0.0, sl=1.1, tp=1.2, deviation=10, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 11:14:05,849 - INFO - MetaTrader5 initialized successfully
+2024-08-28 11:14:06,057 - INFO - Order placed successfully: OrderSendResult(retcode=10009, deal=150296418854, order=150294084771, volume=0.1, price=1.11412, bid=1.11408, ask=1.11412, comment='Request executed', request_id=2741309029, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=1.11412, stoplimit=0.0, sl=1.1, tp=1.2, deviation=20, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 11:14:06,057 - INFO - Order result: OrderSendResult(retcode=10009, deal=150296418854, order=150294084771, volume=0.1, price=1.11412, bid=1.11408, ask=1.11412, comment='Request executed', request_id=2741309029, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=1.11412, stoplimit=0.0, sl=1.1, tp=1.2, deviation=20, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 11:14:17,141 - INFO - MetaTrader5 initialized successfully
+2024-08-28 11:14:17,354 - INFO - Order placed successfully: OrderSendResult(retcode=10009, deal=150296419147, order=150294085065, volume=0.1, price=1.11405, bid=1.11401, ask=1.11405, comment='Request executed', request_id=2741309030, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=1.11405, stoplimit=0.0, sl=1.1, tp=1.2, deviation=20, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 11:14:17,356 - INFO - Order result: OrderSendResult(retcode=10009, deal=150296419147, order=150294085065, volume=0.1, price=1.11405, bid=1.11401, ask=1.11405, comment='Request executed', request_id=2741309030, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=1.11405, stoplimit=0.0, sl=1.1, tp=1.2, deviation=20, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 11:15:42,207 - INFO - MetaTrader5 initialized successfully
+2024-08-28 11:15:42,405 - INFO - Order placed successfully: OrderSendResult(retcode=10009, deal=150296420249, order=150294086179, volume=0.1, price=1.11445, bid=1.1144, ask=1.11444, comment='Request executed', request_id=2741309031, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=1.11445, stoplimit=0.0, sl=1.1, tp=1.2, deviation=20, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 11:15:42,421 - INFO - Order result: OrderSendResult(retcode=10009, deal=150296420249, order=150294086179, volume=0.1, price=1.11445, bid=1.1144, ask=1.11444, comment='Request executed', request_id=2741309031, retcode_external=0, request=TradeRequest(action=1, magic=234000, order=0, symbol='EURUSD', volume=0.1, price=1.11445, stoplimit=0.0, sl=1.1, tp=1.2, deviation=20, type=0, type_filling=1, type_time=0, expiration=0, comment='Masotsha M0.1', position=0, position_by=0))
+2024-08-28 16:30:49,408 - INFO - MetaTrader5 initialized successfully
+2024-08-28 16:30:49,409 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:37:29,231 - INFO - MetaTrader5 initialized successfully
+2024-08-28 16:37:29,232 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:37:29,250 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:37:29,265 - INFO - Error getting market structure: 'close'
+2024-08-28 16:37:29,265 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:37:29,266 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:37:29,288 - INFO - Error getting market structure: 'close'
+2024-08-28 16:37:29,288 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:37:29,289 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:37:29,298 - INFO - Error getting market structure: 'close'
+2024-08-28 16:38:29,299 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:38:29,299 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:38:29,302 - INFO - Error getting market structure: 'close'
+2024-08-28 16:38:29,302 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:38:29,302 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:38:29,304 - INFO - Error getting market structure: 'close'
+2024-08-28 16:38:29,305 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:38:29,305 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:38:29,308 - INFO - Error getting market structure: 'close'
+2024-08-28 16:39:29,317 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:39:29,319 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:39:29,323 - INFO - Error getting market structure: 'close'
+2024-08-28 16:39:29,324 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:39:29,324 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:39:29,333 - INFO - Error getting market structure: 'close'
+2024-08-28 16:39:29,333 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:39:29,334 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:39:29,338 - INFO - Error getting market structure: 'close'
+2024-08-28 16:40:29,339 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:40:29,340 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:40:29,356 - INFO - Error getting market structure: 'close'
+2024-08-28 16:40:29,356 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:40:29,357 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:40:29,366 - INFO - Error getting market structure: 'close'
+2024-08-28 16:40:29,366 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:40:29,367 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:40:29,377 - INFO - Error getting market structure: 'close'
+2024-08-28 16:41:29,438 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:41:29,439 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:41:29,574 - INFO - Error getting market structure: 'close'
+2024-08-28 16:41:29,574 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:41:29,574 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:41:29,601 - INFO - Error getting market structure: 'close'
+2024-08-28 16:41:29,601 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:41:29,602 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:41:29,634 - INFO - Error getting market structure: 'close'
+2024-08-28 16:42:29,634 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:42:29,634 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:42:29,637 - INFO - Error getting market structure: 'close'
+2024-08-28 16:42:29,637 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:42:29,637 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:42:29,640 - INFO - Error getting market structure: 'close'
+2024-08-28 16:42:29,640 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:42:29,640 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:42:29,643 - INFO - Error getting market structure: 'close'
+2024-08-28 16:43:29,644 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:43:29,644 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:43:29,646 - INFO - Error getting market structure: 'close'
+2024-08-28 16:43:29,646 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:43:29,648 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:43:29,648 - INFO - Error getting market structure: 'close'
+2024-08-28 16:43:29,648 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:43:29,649 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:43:29,651 - INFO - Error getting market structure: 'close'
+2024-08-28 16:44:29,652 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:44:29,653 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:44:29,658 - INFO - Error getting market structure: 'close'
+2024-08-28 16:44:29,659 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:44:29,660 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:44:29,667 - INFO - Error getting market structure: 'close'
+2024-08-28 16:44:29,667 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:44:29,669 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:44:29,674 - INFO - Error getting market structure: 'close'
+2024-08-28 16:45:29,676 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:45:29,676 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:45:29,681 - INFO - Error getting market structure: 'close'
+2024-08-28 16:45:29,682 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:45:29,683 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:45:29,688 - INFO - Error getting market structure: 'close'
+2024-08-28 16:45:29,689 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:45:29,690 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:45:29,706 - INFO - Error getting market structure: 'close'
+2024-08-28 16:46:29,707 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:46:29,709 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:46:29,716 - INFO - Error getting market structure: 'close'
+2024-08-28 16:46:29,716 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:46:29,718 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:46:29,738 - INFO - Error getting market structure: 'close'
+2024-08-28 16:46:29,738 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:46:29,739 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:46:29,742 - INFO - Error getting market structure: 'close'
+2024-08-28 16:47:29,755 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:47:29,756 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:47:29,767 - INFO - Error getting market structure: 'close'
+2024-08-28 16:47:29,768 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:47:29,768 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:47:29,790 - INFO - Error getting market structure: 'close'
+2024-08-28 16:47:29,790 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:47:29,791 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:47:29,830 - INFO - Error getting market structure: 'close'
+2024-08-28 16:48:24,905 - INFO - MetaTrader5 initialized successfully
+2024-08-28 16:48:24,905 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:48:24,909 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:48:24,910 - INFO - Error getting market structure: 'close'
+2024-08-28 16:48:24,910 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:48:24,911 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:48:24,912 - INFO - Error getting market structure: 'close'
+2024-08-28 16:48:24,912 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:48:24,913 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:48:24,914 - INFO - Error getting market structure: 'close'
+2024-08-28 16:49:24,915 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:49:24,915 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:49:24,916 - INFO - Error getting market structure: 'close'
+2024-08-28 16:49:24,917 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:49:24,917 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:49:24,918 - INFO - Error getting market structure: 'close'
+2024-08-28 16:49:24,918 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:49:24,918 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:49:24,919 - INFO - Error getting market structure: 'close'
+2024-08-28 16:50:24,920 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:50:24,920 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:50:24,921 - INFO - Error getting market structure: 'close'
+2024-08-28 16:50:24,921 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:50:24,922 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:50:24,922 - INFO - Error getting market structure: 'close'
+2024-08-28 16:50:24,923 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:50:24,923 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:50:24,923 - INFO - Error getting market structure: 'close'
+2024-08-28 16:51:24,932 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:51:24,934 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:51:24,935 - INFO - Error getting market structure: 'close'
+2024-08-28 16:51:24,935 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:51:24,935 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:51:24,936 - INFO - Error getting market structure: 'close'
+2024-08-28 16:51:24,936 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:51:24,937 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:51:24,938 - INFO - Error getting market structure: 'close'
+2024-08-28 16:52:24,938 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:52:24,939 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:52:24,940 - INFO - Error getting market structure: 'close'
+2024-08-28 16:52:24,940 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:52:24,940 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:52:24,941 - INFO - Error getting market structure: 'close'
+2024-08-28 16:52:24,941 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:52:24,941 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:52:24,942 - INFO - Error getting market structure: 'close'
+2024-08-28 16:53:24,942 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:53:24,944 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:53:24,946 - INFO - Error getting market structure: 'close'
+2024-08-28 16:53:24,947 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:53:24,948 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:53:24,950 - INFO - Error getting market structure: 'close'
+2024-08-28 16:53:24,950 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:53:24,951 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:53:24,953 - INFO - Error getting market structure: 'close'
+2024-08-28 16:54:24,954 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:54:24,955 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:54:24,956 - INFO - Error getting market structure: 'close'
+2024-08-28 16:54:24,956 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:54:24,956 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:54:24,957 - INFO - Error getting market structure: 'close'
+2024-08-28 16:54:24,957 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:54:24,957 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:54:24,958 - INFO - Error getting market structure: 'close'
+2024-08-28 16:55:24,959 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:55:24,960 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:55:24,963 - INFO - Error getting market structure: 'close'
+2024-08-28 16:55:24,963 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:55:24,965 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:55:24,966 - INFO - Error getting market structure: 'close'
+2024-08-28 16:55:24,967 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:55:24,968 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:55:24,970 - INFO - Error getting market structure: 'close'
+2024-08-28 16:56:24,971 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:56:24,973 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:56:24,974 - INFO - Error getting market structure: 'close'
+2024-08-28 16:56:24,974 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:56:24,975 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:56:24,977 - INFO - Error getting market structure: 'close'
+2024-08-28 16:56:24,979 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:56:24,979 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:56:24,980 - INFO - Error getting market structure: 'close'
+2024-08-28 16:57:24,982 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:57:24,985 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:57:24,989 - INFO - Error getting market structure: 'close'
+2024-08-28 16:57:24,989 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:57:24,994 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:57:24,996 - INFO - Error getting market structure: 'close'
+2024-08-28 16:57:24,997 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:57:24,998 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:57:25,016 - INFO - Error getting market structure: 'close'
+2024-08-28 16:58:25,018 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:58:25,019 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:58:25,022 - INFO - Error getting market structure: 'close'
+2024-08-28 16:58:25,022 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:58:25,024 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:58:25,026 - INFO - Error getting market structure: 'close'
+2024-08-28 16:58:25,026 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:58:25,027 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:58:25,028 - INFO - Error getting market structure: 'close'
+2024-08-28 16:59:25,029 - INFO - Checking entry conditions for EURUSD
+2024-08-28 16:59:25,029 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 16:59:25,030 - INFO - Error getting market structure: 'close'
+2024-08-28 16:59:25,030 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 16:59:25,031 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 16:59:25,031 - INFO - Error getting market structure: 'close'
+2024-08-28 16:59:25,031 - INFO - Checking entry conditions for USDJPY
+2024-08-28 16:59:25,032 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 16:59:25,032 - INFO - Error getting market structure: 'close'
+2024-08-28 17:00:25,033 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:00:25,033 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:00:25,034 - INFO - Error getting market structure: 'close'
+2024-08-28 17:00:25,034 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:00:25,035 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:00:25,035 - INFO - Error getting market structure: 'close'
+2024-08-28 17:00:25,036 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:00:25,036 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:00:25,037 - INFO - Error getting market structure: 'close'
+2024-08-28 17:01:47,585 - INFO - MetaTrader5 initialized successfully
+2024-08-28 17:01:47,586 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:01:47,589 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:01:47,590 - INFO - Error getting market structure: 'close'
+2024-08-28 17:01:47,591 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:01:47,591 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:01:47,592 - INFO - Error getting market structure: 'close'
+2024-08-28 17:01:47,592 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:01:47,593 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:01:47,594 - INFO - Error getting market structure: 'close'
+2024-08-28 17:02:47,595 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:02:47,595 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:02:47,596 - INFO - Error getting market structure: 'close'
+2024-08-28 17:02:47,596 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:02:47,597 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:02:47,598 - INFO - Error getting market structure: 'close'
+2024-08-28 17:02:47,598 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:02:47,598 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:02:47,599 - INFO - Error getting market structure: 'close'
+2024-08-28 17:03:47,600 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:03:47,601 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:03:47,604 - INFO - Error getting market structure: 'close'
+2024-08-28 17:03:47,605 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:03:47,606 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:03:47,608 - INFO - Error getting market structure: 'close'
+2024-08-28 17:03:47,609 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:03:47,610 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:03:47,612 - INFO - Error getting market structure: 'close'
+2024-08-28 17:04:50,511 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:04:50,512 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:04:50,515 - INFO - Error getting market structure: 'close'
+2024-08-28 17:04:50,515 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:04:50,516 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:04:50,518 - INFO - Error getting market structure: 'close'
+2024-08-28 17:04:50,519 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:04:50,872 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:04:50,874 - INFO - Error getting market structure: 'close'
+2024-08-28 17:05:50,875 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:05:50,877 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:05:50,879 - INFO - Error getting market structure: 'close'
+2024-08-28 17:05:50,879 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:05:50,881 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:05:50,882 - INFO - Error getting market structure: 'close'
+2024-08-28 17:05:50,883 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:05:50,884 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:05:50,886 - INFO - Error getting market structure: 'close'
+2024-08-28 17:06:50,887 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:06:50,887 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:06:50,888 - INFO - Error getting market structure: 'close'
+2024-08-28 17:06:50,888 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:06:50,889 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:06:50,889 - INFO - Error getting market structure: 'close'
+2024-08-28 17:06:50,889 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:06:50,890 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:06:50,890 - INFO - Error getting market structure: 'close'
+2024-08-28 17:07:50,891 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:07:50,892 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:07:50,893 - INFO - Error getting market structure: 'close'
+2024-08-28 17:07:50,893 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:07:50,893 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:07:50,894 - INFO - Error getting market structure: 'close'
+2024-08-28 17:07:50,894 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:07:50,894 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:07:50,894 - INFO - Error getting market structure: 'close'
+2024-08-28 17:08:50,896 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:08:50,898 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:08:50,899 - INFO - Error getting market structure: 'close'
+2024-08-28 17:08:50,899 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:08:50,900 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:08:50,900 - INFO - Error getting market structure: 'close'
+2024-08-28 17:08:50,900 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:08:50,901 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:08:50,901 - INFO - Error getting market structure: 'close'
+2024-08-28 17:09:50,903 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:09:50,903 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:09:50,904 - INFO - Error getting market structure: 'close'
+2024-08-28 17:09:50,904 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:09:50,905 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:09:50,905 - INFO - Error getting market structure: 'close'
+2024-08-28 17:09:50,905 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:09:50,906 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:09:50,906 - INFO - Error getting market structure: 'close'
+2024-08-28 17:10:50,907 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:10:50,908 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:10:50,908 - INFO - Error getting market structure: 'close'
+2024-08-28 17:10:50,909 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:10:50,909 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:10:50,909 - INFO - Error getting market structure: 'close'
+2024-08-28 17:10:50,909 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:10:50,910 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:10:50,910 - INFO - Error getting market structure: 'close'
+2024-08-28 17:11:50,911 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:11:50,912 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:11:50,913 - INFO - Error getting market structure: 'close'
+2024-08-28 17:11:50,913 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:11:50,913 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:11:50,914 - INFO - Error getting market structure: 'close'
+2024-08-28 17:11:50,914 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:11:50,914 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:11:50,915 - INFO - Error getting market structure: 'close'
+2024-08-28 17:12:50,915 - INFO - Checking entry conditions for EURUSD
+2024-08-28 17:12:50,916 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/EURUSD_H1_data.csv'
+2024-08-28 17:12:50,917 - INFO - Error getting market structure: 'close'
+2024-08-28 17:12:50,917 - INFO - Checking entry conditions for GBPUSD
+2024-08-28 17:12:50,918 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/GBPUSD_H1_data.csv'
+2024-08-28 17:12:50,918 - INFO - Error getting market structure: 'close'
+2024-08-28 17:12:50,919 - INFO - Checking entry conditions for USDJPY
+2024-08-28 17:12:50,919 - INFO - Error loading data: [Errno 2] No such file or directory: 'data/USDJPY_H1_data.csv'
+2024-08-28 17:12:50,920 - INFO - Error getting market structure: 'close'
