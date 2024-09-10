@@ -1,11 +1,11 @@
-# Masotsha_M0.1/main.py
-from trade_manager.trade_executor import execute_trade
+from trade_manager.trade_executor import execute_trade, load_config
 from trade_manager.logger import setup_logger, log_message  # Import logger
 from data.historical_data import load_data
 from strategy.market_structure import get_market_structure
 import MetaTrader5 as mt5
 import datetime
 import time
+import logging
 
 def main():
     setup_logger()  # Initialize logging at the start

@@ -1,4 +1,3 @@
-# trade_manager/risk_management.py
 from trade_manager.logger import log_message
 import logging
 

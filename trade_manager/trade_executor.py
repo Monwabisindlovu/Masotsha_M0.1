@@ -1,14 +1,20 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import json
 import logging
 import MetaTrader5 as mt5
 from trade_manager.logger import log_message
 from trade_manager.risk_management import calculate_take_profit, calculate_stop_loss, calculate_support_resistance
 from data.historical_data import load_data, preprocess_data
-from config import credentials
+from config.credentials import MT5_LOGIN, MT5_PASSWORD, MT5_SERVER
 import os
+import pandas as pd
+import time
 
 # Path to MetaTrader 5 executable
 MT5_PATH = r"C:\Program Files\MetaTrader 5\terminal64.exe"
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 def load_config(file_path):
     """Load configuration from a JSON file."""
@@ -35,13 +41,13 @@ def initialize_mt5():
         return False
 
     # Log in to the account
-    login_status = mt5.login(credentials.MT5_LOGIN, password=credentials.MT5_PASSWORD, server=credentials.MT5_SERVER)
+    login_status = mt5.login(MT5_LOGIN, password=MT5_PASSWORD, server=MT5_SERVER)
     if not login_status:
-        log_message(f"Failed to login to account {credentials.MT5_LOGIN}, error code: {mt5.last_error()}", level=logging.ERROR)
+        log_message(f"Failed to login to account {MT5_LOGIN}, error code: {mt5.last_error()}", level=logging.ERROR)
         mt5.shutdown()
         return False
 
-    log_message(f"Logged in to account {credentials.MT5_LOGIN} successfully.")
+    log_message(f"Logged in to account {MT5_LOGIN} successfully.")
     return True
 
 def place_order(symbol, action, lot_size, stop_loss, take_profit):
@@ -92,6 +98,10 @@ def calculate_stop_loss_and_take_profit(symbol, action):
     """Calculate stop loss and take profit levels based on the market structure."""
     try:
         data = load_data(f'../data/{symbol}_H4_data.csv')
+        if data is None or data.empty:
+            log_message(f"Data is empty or not loaded for {symbol}.", level=logging.ERROR)
+            return None, None
+
         data = preprocess_data(data)  # Ensure data is preprocessed
         support, resistance = calculate_support_resistance(data)
 
@@ -99,18 +109,34 @@ def calculate_stop_loss_and_take_profit(symbol, action):
             log_message(f"Support or resistance levels are None for {symbol}.", level=logging.ERROR)
             return None, None
 
+        # Example calculation for stop loss and take profit
         if action == 'buy':
-            stop_loss = support - 20 * 0.0001
-            take_profit = resistance + 500 * 0.0001
+            stop_loss = support * 0.99  # Adjust as needed
+            take_profit = resistance * 1.01  # Adjust as needed
         else:
-            stop_loss = resistance + 20 * 0.0001
-            take_profit = support - 500 * 0.0001
+            stop_loss = resistance * 1.01  # Adjust as needed
+            take_profit = support * 0.99  # Adjust as needed
 
         return stop_loss, take_profit
 
     except Exception as e:
         log_message(f"Error calculating stop loss and take profit for {symbol}: {str(e)}", level=logging.ERROR)
         return None, None
+
+def load_data(file_path):
+    """Load historical data from a CSV file."""
+    try:
+        data = pd.read_csv(file_path)
+        if 'time' not in data.columns:
+            log_message(f"'time' column not found in data.", level=logging.ERROR)
+            return None
+        return data
+    except FileNotFoundError:
+        log_message(f"File not found: {file_path}", level=logging.ERROR)
+        return None
+    except pd.errors.EmptyDataError:
+        log_message(f"Data is empty. Cannot calculate support/resistance.", level=logging.ERROR)
+        return None
 
 def main():
     """Main execution function."""
@@ -128,12 +154,22 @@ def main():
     if not initialize_mt5():
         return
 
+    trades_taken = 0
+
     for symbol in trading_pairs:
+        if trades_taken >= max_trades_per_day:
+            break
+
         action = 'buy'  # Example action
         stop_loss, take_profit = calculate_stop_loss_and_take_profit(symbol, action)
         if stop_loss and take_profit:
-            result = place_order(symbol, action, lot_size, stop_loss, take_profit)
-            print(result)
+            for _ in range(max_positions_per_trade):
+                result = place_order(symbol, action, lot_size, stop_loss, take_profit)
+                if result and result.retcode == mt5.TRADE_RETCODE_DONE:
+                    trades_taken += 1
+                    if trades_taken >= max_trades_per_day:
+                        break
+                time.sleep(1)  # Small delay between orders
 
 if __name__ == "__main__":
     main()
