@@ -95,34 +95,35 @@ def place_order(symbol, action, lot_size, stop_loss, take_profit):
         return None
 
 def calculate_stop_loss_and_take_profit(symbol, action):
-    """Calculate stop loss and take profit levels based on the market structure."""
+    """Calculate stop loss and take profit levels based on fixed pip values."""
     try:
-        data = load_data(f'../data/{symbol}_H4_data.csv')
-        if data is None or data.empty:
-            log_message(f"Data is empty or not loaded for {symbol}.", level=logging.ERROR)
+        # Get the current price
+        symbol_info_tick = mt5.symbol_info_tick(symbol)
+        if symbol_info_tick is None:
+            log_message(f"Symbol {symbol} info not available.", level=logging.ERROR)
             return None, None
 
-        data = preprocess_data(data)  # Ensure data is preprocessed
-        support, resistance = calculate_support_resistance(data)
+        price = symbol_info_tick.ask if action == 'buy' else symbol_info_tick.bid
 
-        if support is None or resistance is None:
-            log_message(f"Support or resistance levels are None for {symbol}.", level=logging.ERROR)
-            return None, None
+        # Convert pip values to price difference based on symbol's tick size
+        pip_size = mt5.symbol_info(symbol).point  # This gives the size of 1 pip for the symbol
 
-        # Example calculation for stop loss and take profit
+        stop_loss_pips = 10  # 10 pips for stop loss
+        take_profit_pips = 30  # 30 pips for take profit
+
         if action == 'buy':
-            stop_loss = support * 0.99  # Adjust as needed
-            take_profit = resistance * 1.01  # Adjust as needed
+            stop_loss = price - (stop_loss_pips * pip_size)  # For buy, stop loss is below the price
+            take_profit = price + (take_profit_pips * pip_size)  # Take profit is above the price
         else:
-            stop_loss = resistance * 1.01  # Adjust as needed
-            take_profit = support * 0.99  # Adjust as needed
+            stop_loss = price + (stop_loss_pips * pip_size)  # For sell, stop loss is above the price
+            take_profit = price - (take_profit_pips * pip_size)  # Take profit is below the price
 
         return stop_loss, take_profit
 
     except Exception as e:
         log_message(f"Error calculating stop loss and take profit for {symbol}: {str(e)}", level=logging.ERROR)
         return None, None
-
+    
 def load_data(file_path):
     """Load historical data from a CSV file."""
     try:
@@ -150,6 +151,12 @@ def main():
     max_trades_per_day = config.get('MAX_TRADES_PER_DAY')
     max_positions_per_trade = config.get('MAX_POSITIONS_PER_TRADE')
     trading_pairs = config.get('TRADING_PAIRS')
+
+    # Ensure trading_pairs is a list and add XAUUSD if not already present
+    if trading_pairs is None:
+        trading_pairs = ['XAUUSD']
+    elif 'XAUUSD' not in trading_pairs:
+        trading_pairs.append('XAUUSD')
 
     if not initialize_mt5():
         return
