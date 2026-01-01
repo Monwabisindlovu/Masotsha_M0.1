@@ -1,0 +1,7 @@
+# Ignore credentials and environment files
+config/credentials.py
+.env
+*.log
+venv/
+myenv/
+__pycache__/
